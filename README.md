@@ -123,12 +123,6 @@ Files
 *   dataset/: Directory containing the Telco Customer Churn dataset
     
 
-Installation & Usage
---------------------
-
-bash
-
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   # Install required packages  pip install pandas numpy scikit-learn matplotlib seaborn joblib jupyter  # Run Jupyter notebook  jupyter notebook churn_prediction.ipynb  # Load model in production  import joblib  pipeline = joblib.load('churn_prediction_pipeline.pkl')  predictions = pipeline.predict(new_data)   `
 
 Future Enhancements
 -------------------
